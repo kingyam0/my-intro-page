@@ -1,0 +1,76 @@
+.App {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.App-header {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-container {
+  text-align: left;
+  margin-right: 20px;
+}
+
+.Intro {
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+
+.first-name {
+  color: rgb(0, 0, 0);
+  font-size: 75px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.last-name {
+  color: rgb(118, 118, 118);
+  font-size: 75px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.JobTitle {
+  font-size: 25px;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  margin: 10px;
+  border: 5px solid black;
+  border-radius: 25%;
+}
+
+.code-image-container {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.code-image {
+  width: 400px;
+  height: auto;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
