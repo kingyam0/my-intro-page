@@ -39,6 +39,8 @@ To run the project locally, follow these steps:
 
 Feel free to modify the code and customize the profile information to suit your needs.
 
+## Access via Netlify
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
