@@ -47,17 +47,27 @@
   margin-bottom: 20px;
 }
 
-.JobTitle {
-  font-size: 25px;
+.first-name,
+.last-name {
+  animation: 10s anim-lineUp ease-out 0.1s;
 }
 
-.logo {
-  width: 60px;
-  height: auto;
-  margin: 10px;
-  border: 5px solid rgb(49, 49, 49);
-  border-radius: 25%;
-  animation: bounceIn 2s ease-in-out 0.1s;
+.Intro,
+.JobTitle {
+  animation: 2s anim-lineUp ease-out 0.1s;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+.JobTitle {
+  font-size: 25px;
+  color: rgb(118, 118, 118);
 }
 
 .code-image-container {
@@ -71,25 +81,56 @@
   animation: bounceIn 2s ease-in-out 0.1s;
 }
 
-@keyframes bounceIn {
-  0% {
-    transform: scale(0.1);
-    opacity: 0;
-  }
+.code-image:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
 
-  /* 60% {
-    transform: scale(1.2);
-    opacity: 1;
-  } */
+.logo {
+  width: 60px;
+  height: auto;
+  margin: 10px;
+  border: 5px solid rgb(49, 49, 49);
+  border-radius: 25%;
+  animation: bounceIn 2s ease-in-out 0.1s;
+}
 
-  /* 100% {
-    transform: scale(1);
-    opacity: 1;
-  } */
+.logo:hover {
+  transform: scale(1.1);
+  border: 5px solid rgb(0, 0, 0);
+  cursor: pointer;
 }
 
 .logo-container {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
