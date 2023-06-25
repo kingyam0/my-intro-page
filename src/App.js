@@ -5,10 +5,15 @@ import githubLogo from './assets/github-logo.png';
 import linkedinLogo from './assets/linkedin-logo.png';
 import codeLogo from './assets/code-image.png';
 
+// import About from './components/aboutme.js';
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <nav className="nav-container">
+          {/* <About /> */}
+        </nav>
         <div className="content-container">
           <div className="intro-container">
             <div className="Intro">
