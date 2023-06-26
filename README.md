@@ -41,6 +41,8 @@ Feel free to modify the code and customize the profile information to suit your 
 
 ## Access via Netlify
 
+https://introduction-to-me.netlify.app/
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
